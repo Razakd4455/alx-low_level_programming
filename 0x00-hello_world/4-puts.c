@@ -1,11 +1,7 @@
 	#include <stdio.h>
-	/*The main function does not return any value*/
-	int main()
-	/*The function puts prints with a line*/
-{
-	Puts("Programming is like building a mulitilingual puzzle");
-	}
-{
-	/*the return function ends the program*/	
-	return 0;
-	}
+	int main(void)
+        {
+	  /* main fuction is void */
+	putS(""Programming is like building a multilingual puzzle");
+        return 0;	
+       }
