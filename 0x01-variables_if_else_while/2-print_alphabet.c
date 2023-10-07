@@ -4,9 +4,10 @@
  *
  * Return: always 0
  */
-char main(void)
+int main(void)
 {
-	for (i = 'a' ; i <= 'z' ; i++)
+	int i;
+	for (i = 'a'; i <= 'z'; i++)
 		putchar(i);
 	putchar("\n");
 	return (0);

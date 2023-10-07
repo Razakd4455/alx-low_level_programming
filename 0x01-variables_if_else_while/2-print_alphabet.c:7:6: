@@ -1,0 +1,17 @@
+ar main(void)
+      |      ^~~~
+2-print_alphabet.c: In function ‘main’:
+2-print_alphabet.c:9:7: error: ‘i’ undeclared (first use in this function)
+    9 |  for (i = 'a' ; i <= 'z' ; i++)
+      |       ^
+2-print_alphabet.c:9:7: note: each undeclared identifier is reported only once for each function it appears in
+2-print_alphabet.c:11:10: error: passing argument 1 of ‘putchar’ makes integer from pointer without a cast [-Werror=int-conversion]
+   11 |  putchar("\n");
+      |          ^~~~
+      |          |
+      |          char *
+In file included from 2-print_alphabet.c:1:
+/usr/include/stdio.h:528:25: note: expected ‘int’ but argument is of type ‘char *’
+  528 | extern int putchar (int __c);
+      |                     ~~~~^~~
+cc1: all warnings being treated as errors
