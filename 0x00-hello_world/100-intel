@@ -1,2 +1,4 @@
 #!/bin/bash
-gcc -S -masm=intel $CFIE
+export CFILE=main.c
+./generate_asm.sh
+
