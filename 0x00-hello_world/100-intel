@@ -1,4 +1,2 @@
 #!/bin/bash
-export CFILE=main.c
-./generate_asm.sh
-
+gcc -S -main=intel $CFILE
