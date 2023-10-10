@@ -1,10 +1,11 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * main - checks the code
  *
  * Return: always 0
  */
-void print_alphabet(void);
+int main(void)
 {
 char alphabet = 'a';
 	while (alphabet <= 'z')
