@@ -4,12 +4,8 @@
  *
  * Return: always 0
  */
-void print_alphabet(void)
-	/**
-	 * print_alphabet
-	 */
+void print_alphabet(void);
 {
-	print_alphabet();
 char letter = 'a';
 	while (letter <= 'z')
 	{
