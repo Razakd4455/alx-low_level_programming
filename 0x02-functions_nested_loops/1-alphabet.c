@@ -1,10 +1,13 @@
 #include "main.h"
 /**
- * main - main function
+ * main - checks the code
  *
  * Return: always 0
  */
 void print_alphabet(void)
+	/**
+	 * print_alphabet
+	 */
 {
 char letter = 'a';
 	while (letter <= 'z')
@@ -13,5 +16,4 @@ char letter = 'a';
 	letter++;
 	}
 	_putchar('\n');
-	return (0);
 }
