@@ -1,19 +1,22 @@
 #include "main.h"
 /**
- * main - check the code
+ * print_alphabet_x10 - make alphabet x10 times
  *
- * Return: Always 0.
+ * Return: void
  */
 void print_alphabet_x10(void)
 {
-{
-	int i;
-for (i = 0; i < 10; i++)
+char c;
+int i = 0;
+while (i < 10)
 }
-char alphabet
-for (alphabet = 'a'; <= 'z'; alphabet++)
 {
-	_putchar(alphabet);
+for (c = 'a'; c = 'z'; c++)
 }
-_putchar('\n');
+{
+_putchar(c);
+}
+{
+_putchar('\n')
+i++
 }
