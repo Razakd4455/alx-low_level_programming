@@ -23,10 +23,10 @@ int main(void)
 	printf('\n');
 	}
 	else
-	printf("Buzz");
+	printf("Buzz" );
 	}
 	else if (x % 3 == 0)
-	printf("Fizz");
+	printf("Fizz" );
 	else
 	printf("%d ", x);
 	x++;
