@@ -22,10 +22,10 @@ _putchar('\n');
 	for (y = 0; y < x; y++)
 	}
 	{
-	_putchar(95);
+	_putchar(32);
 	}
 	{
-	_putchar(32);
+	_putchar(95);
 	_putchar('\n');
 	}
 }
