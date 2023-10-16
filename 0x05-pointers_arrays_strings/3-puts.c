@@ -1,19 +1,16 @@
 #include "main.h"
+
 /**
- *_puts - prints a string
- *
- *@str: the sring to print
- *
- * Return: Always 0
+ * _puts - prints a string to stdout
+ * @str: pointer to the string to print
  */
 void _puts(char *str)
 {
+	int i;
 
-for (; *str != '\0'; str++)
-{
-_putchar(*str);
-}
-
-_putchar('\n');
-
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		_putchar(str[i]);
+	}
+	_putchar('\n');
 }
