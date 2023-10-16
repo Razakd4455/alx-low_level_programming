@@ -1,16 +1,16 @@
 #include "main.h"
-#include <stdio.h>
-void _puts(char *str)
+
 /**
  * _puts - prints a string to stdout
  * @str: pointer to the string to print
  */
-int main(void)
+void _puts(char *str)
 {
+	int i;
 
-char *str;
-str = "Holberton!";
-_puts(str);
-return (0);
-
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		_putchar(str[i]);
+	}
+	_putchar('\n');
 }
