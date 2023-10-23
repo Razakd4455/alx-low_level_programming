@@ -14,9 +14,9 @@ while (*s != '\0')
 {
 if (*s == c)
 {
-return (s);
+return (s + i);
 }
 s++;
 }
-return (NULL);
+return ('\0');
 }
