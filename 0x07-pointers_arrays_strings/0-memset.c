@@ -12,9 +12,8 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-char str[5] = "s";
-_putchar("Before memset => %s" ,str);
-_memset(str, 'b' ,n);
-_putchar("\nAfter memset => %s\n" ,str);
+unsigned int i;
+for (i =0; i < n; ,i++)
+s[i] = b;
 return (s);
 }
