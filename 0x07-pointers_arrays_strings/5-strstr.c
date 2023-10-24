@@ -8,17 +8,15 @@
 char *_strstr(char *haystack, char *needle)
 {
 
-int i, j;
-
-for (i = 0; haystack[i]; i++)
+char *i = haystack;
+char *j = needle;
+while (*i = *j && != '\0')
 {
-for (j = 0; needle[j]; j++)
-if (haystack[i] == needle[j])
 i++;
-return (needle);
-{
 j++;
 }
+if (*j == '\0')
+return (haystack);
 }
 return (0);
 }
