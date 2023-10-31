@@ -9,11 +9,13 @@
 char *_strdup(char *str)
 {
 char *duplicate;
+size_t length;
 if (str == NULL)
 return (NULL);
-duplicate = (char *)malloc(strlen(str + 1));
-return (duplicate);
-if (duplicate == 0)
+length = strlen(str);
+duplicate = (char *)malloc(sizeof(char) * (length + 1));
+if (duplicate == NULL)
 return (NULL);
-free(duplicate);
+strcpy(duplicate, str);
+return (duplicate);
 }
