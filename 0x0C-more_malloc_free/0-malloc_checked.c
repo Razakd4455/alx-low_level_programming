@@ -1,17 +1,19 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * malloc_checked - causes normal termination with exit 98
- * @b: an integer
- * Return:returns a pointer or 98
+ * malloc_checked - creates allocated memory
+ * @b:integer
+ * Return:returns a pointer
  */
 void *malloc_checked(unsigned int b)
 {
+void *ptr;
 
-void *ptr = malloc(b);
+ptr = malloc(b);
 if (ptr == NULL)
 {
 exit(98);
 }
 return (ptr);
 }
+
