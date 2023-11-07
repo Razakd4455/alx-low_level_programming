@@ -8,7 +8,7 @@
  * @age:age of dog
  * @owner:name of dog owner
  */
-struct dog
+struct dog_t
 {
 
 	char *name;
