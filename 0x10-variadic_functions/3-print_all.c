@@ -13,7 +13,7 @@ va_list print;
 
 va_start(print, format); /* initialize var arguments */
 i = 0;
-while (format != NULL && format[i] != '\0')
+while (format != NULL && format[i])
 {
 switch (format[i])
 {
