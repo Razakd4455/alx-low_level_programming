@@ -29,9 +29,7 @@ break;
 case 's':
 {
 char *str = va_arg(print, char *);
-if (str == NULL)
-printf("(nil)");
-else
+if (str != NULL)
 printf("%s", str);
 }
 break;
